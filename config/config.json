@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "123@123",
+    "database": "wms_stock",
+    "host": "localhost",
+    "port" : "3306",
+    "dialect": "mysql",
+    "logging": true
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": ":memory:",
+    "logging": false
+  },
+  "production": {
+    "username": "root",
+    "password": "12345678",
+    "database": "wms_stock",
+    "host": "10.1.2.35",
+    "port" : "3306",
+    "dialect": "mysql",
+    "logging": false
+  }
+}
